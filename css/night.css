@@ -1,0 +1,17 @@
+#clock {
+      color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    font-size: 6em;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 64%;
+    margin-right: 15%;
+    top: 0; left: 0px; bottom: 0; right: 0;   
+    opacity: .9;
+
+}

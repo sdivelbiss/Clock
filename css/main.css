@@ -1,35 +1,48 @@
 body {
-    background-image: url("../img/wood.jpg");
+    background-image: url("../img/day-night.jpg");
     font-size: 16px;
 }
 
-#clock {
-    color: #99FF00;
-font-family: 'Monoton', cursive;
-    letter-spacing: 50px;
-    font-size: 10em;
+/*.day {
+  background-color: blue;
+}*/
+
+
+.clockday {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    font-size: 6em;
     height: 200px;
     margin: auto;
     text-align: center;
     display: inline-block;
     position: relative;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin-top: 5%;
+    margin-left: 9%;
     margin-right: 15%;
     top: 0; left: 0px; bottom: 0; right: 0;   
     opacity: .9;
-/*    text-shadow: 5px 5px 5px #99ff00;
-*/  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-  border: none;
-  text-decoration: normal;
-  text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-/*  text-shadow: 0 0 10px rgba(255,255,255,.4) , 0 0 20px rgba(255,255,255,.2) , 0 0 30px rgba(255,255,255,.2) , 0 0 10px #99FF00 , 0 0 20px #99FF00 , 0 0 35px #99FF00 , 0 0 40px #99FF00 ;
-*/
+
 }
+
+.clocknight {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 10px;
+    font-size: 6em;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 64%;
+    margin-right: 15%;
+    top: 0; left: 0px; bottom: 0; right: 0;   
+    opacity: .9;
+
+}
+
+
 
